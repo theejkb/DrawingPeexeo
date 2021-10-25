@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"
+        integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    </link>
+</head>
+
+<body>
+    <!-- <canvas id="canvas"></canvas> -->
+    <div class="container">
+        <canvas width="800px" height="800px" id="art"></canvas>
+        <div id="draw-controls">
+            <input type="button" id="reset" />
+            <div class="stroke-size">
+                <input type="button" id="plus" value="+" />
+                <div id="stroke-width">5</div>
+                <input type="button" id="minus" value="-" />
+            </div>
+            <input type="color" id="color">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
